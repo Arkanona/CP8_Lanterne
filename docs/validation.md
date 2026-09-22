@@ -12,9 +12,15 @@ Après avoir effectué le test de `/api/health` j'ai obtenu :
 }
 
 ```
-le statut attendu est `ok` et celui obtenu est `ok` donc c'est bon.
+le statut reçu est `200` donc il est bon.
+
+![image](./img/health.png)
 
 Le test de `/api/curiosities` me renvoie bien le JSON attendu.
+
+le statut reçu est `200` donc il est bon.
+
+![image](./img/Curiosities.png)
 
 Pour le test de `/api/curiosities?q=canal&limit=5` il me renvoie également ce qui est attendu : 
 
@@ -37,6 +43,10 @@ Pour le test de `/api/curiosities?q=canal&limit=5` il me renvoie également ce q
   }
 }
 ```
+le statut reçu est `200` donc il est bon.
+
+![image](./img/canal5.png)
+
 
 Pour le dernier test `/api/curiosities/:slug` j'ai remplacer `:slug` par `jardin-des-brumes` et j'ai bien obtenu le résultat attendu :
 
@@ -51,5 +61,8 @@ Pour le dernier test `/api/curiosities/:slug` j'ai remplacer `:slug` par `jardin
   }
 }
 ```
+le statut reçu est `200` donc il est bon.
+
+![image](./img/jardin.png)
 
 Toutes les méthodes HTTP on était réalisées avec `GET`.

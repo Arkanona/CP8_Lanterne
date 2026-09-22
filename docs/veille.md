@@ -1,12 +1,27 @@
 ### 1 Auditer le projet 
 
 ## Arborescence
-
-Pour l’arborescence du projet on a un fichier 'src' puis dedans un fichier ‘index.js’.
-
+```
+CP8_Lanterne/
+├── docs/
+│   ├── deploiement-vercel.md
+│   ├── validation.md
+│   └── veille.md
+├── src/
+│   ├── data/
+│   └── index.js
+├── tests/
+│   └── api.test.js
+├── .env.example
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── vercel.json
+```
 ## Dépendances
 
-Pour les dépendances il y a ‘cors’ et ‘express’.
+Pour les dépendances il y a ``cors`` et ``express``.
 
 ## Version Node.js
 
@@ -14,7 +29,7 @@ La version de Node.js est 24 ou supérieure.
 
 ## Scripts
 
-Pour les noms des scripts : ‘start’, ‘dev’, ‘check’ et ‘test’.
+Pour les noms des scripts : ``start``, ``dev``, ``check`` et ``test``.
 
 ## Routes 
 
@@ -26,13 +41,14 @@ Les routes principales sont :
 
 
 ## Les fichiers qui ne doivent pas être transmis dans Git  
-
+```
 .env
 node_modules
+```
 
 ## Sources
 
-Mes principales sources pour la recherche on était la doc Vercel.
+Mes principales sources pour la recherche on était la documentation Vercel.
 
 ## Informations retenues
 
