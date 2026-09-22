@@ -17,4 +17,7 @@ Les variables d'environnement sont des paires clé-valeur configurées en dehors
 ## Déploiement
 
 En essayant de déployer le projet il y'a eu un warning pour la version de Node et une erreur par rapport au build.
-J'ai mis à jour la version de Node.js qui était en `>=20` → `24.x`
+J'ai mis à jour la version de Node.js qui était en `>=20` → `24.x`. 
+J'ai renommé le fichier `api` en `src`.
+Et le déploiement à pu être effectué à `11h01`.
+

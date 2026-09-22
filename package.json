@@ -8,9 +8,9 @@
     "node": "24.x"
   },
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "node --watch api/index.js",
-    "check": "node --check api/index.js && node --check tests/api.test.js",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js && node --check tests/api.test.js",
     "test": "node tests/api.test.js"
   },
   "dependencies": {

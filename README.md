@@ -5,15 +5,15 @@ Lanterne est une API REST Express qui référence des curiosités locales : lieu
 ## Pré-requis
 
 - Node.js 20 ou supérieur
-- pnpm 11 ou npm compatible
+- npm
 
 ## Installation et lancement local
 
 ```text
-pnpm install
-pnpm run check
-pnpm test
-pnpm start
+npm install
+npm run check
+npm test
+npm start
 ```
 
 L’API est disponible sur `http://localhost:3000`.
@@ -26,3 +26,7 @@ L’API est disponible sur `http://localhost:3000`.
 - `GET /api/curiosities/:slug`
 
 Le déploiement cible Vercel. Les variables d’environnement sont listées dans `.env.example`. Aucune donnée sensible ne doit être ajoutée au dépôt.
+
+## Liens publique Vercel
+
+`https://cp-8-lanterne-8pke.vercel.app/`

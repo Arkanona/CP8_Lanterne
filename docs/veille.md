@@ -2,7 +2,7 @@
 
 ## Arborescence
 
-Pour l’arborescence du projet le ‘index.js’ aurait dû être nommé ‘app.js’, le fichier devrait être à la racine du projet.
+Pour l’arborescence du projet on a un fichier 'src' puis dedans un fichier ‘index.js’.
 
 ## Dépendances
 
@@ -10,7 +10,7 @@ Pour les dépendances il y a ‘cors’ et ‘express’.
 
 ## Version Node.js
 
-La version de Node.js est 20 ou supérieure.
+La version de Node.js est 24 ou supérieure.
 
 ## Scripts
 
@@ -29,3 +29,12 @@ Les routes principales sont :
 
 .env
 node_modules
+
+## Sources
+
+Mes principales sources pour la recherche on était la doc Vercel.
+
+## Informations retenues
+
+L'environnement et les variables d'environnements.
+

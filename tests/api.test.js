@@ -1,3 +1,4 @@
+
 const assert = require('node:assert/strict');
 
 const app = require('../api/index');
@@ -5,6 +6,7 @@ const app = require('../api/index');
 const server = app.listen(0, async () => {
   const { port } = server.address();
   try {
+
     const response = await fetch(`http://127.0.0.1:${port}/api/health`);
     const payload = await response.json();
 
