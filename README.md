@@ -33,7 +33,8 @@ Le déploiement cible Vercel. Les variables d’environnement sont listées dans
 
 Exemple de routes possibles : 
 
-- `https://cp-8-lanterne-8pke.vercel.app//api/health`
-- `https://cp-8-lanterne-8pke.vercel.app//api/curiosities`
-- `https://cp-8-lanterne-8pke.vercel.app//api/curiosities?q=canal&limit=5`
-- `https://cp-8-lanterne-8pke.vercel.app//api/curiosities/:slug`
+- `https://cp-8-lanterne-8pke.vercel.app/api/health`
+- `https://cp-8-lanterne-8pke.vercel.app/api/curiosities`
+- `https://cp-8-lanterne-8pke.vercel.app/api/curiosities?q=canal&limit=5`
+- `https://cp-8-lanterne-8pke.vercel.app/api/curiosities/:slug`
+
