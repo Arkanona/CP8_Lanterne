@@ -38,3 +38,5 @@ Exemple de routes possibles :
 - `https://cp-8-lanterne-8pke.vercel.app/api/curiosities?q=canal&limit=5`
 - `https://cp-8-lanterne-8pke.vercel.app/api/curiosities/:slug`
 
+## Liens GitHub
+`https://github.com/Arkanona/CP8_Lanterne`
