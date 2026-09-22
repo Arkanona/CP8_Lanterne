@@ -40,5 +40,12 @@
     "city": "La Rochelle",
     "category": "mémoire",
     "description": "Une ancienne remise de quai devenue un repère pour les promeneurs curieux."
+  },
+  {
+    "slug": "cabane-du-pecheur",
+    "title": "La cabane du pêcheur",
+    "city": "Chez cabrel",
+    "category": "musique",
+    "description": "Une cabane de pêcheur."
   }
 ]
