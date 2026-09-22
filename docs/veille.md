@@ -38,3 +38,12 @@ Mes principales sources pour la recherche on était la doc Vercel.
 
 L'environnement et les variables d'environnements.
 
+## 6 Sécuriser la configuration
+
+- Allez dans les paramètres de votre projet sur le tableau de bord Vercel.
+- Ouvrez la section Deployment Protection.
+- Activez Vercel Authentication pour restreindre l'accès aux personnes autorisées de votre équipe.
+
+`Vercel Authentification`, `Password Protection`, `Trusted IPs`.
+Source `https://vercel.com/docs/deployment-protection/methods-to-protect-deployments`.
+

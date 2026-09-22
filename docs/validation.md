@@ -1,18 +1,55 @@
-## Requêtes exécutées
+### Requêtes exécutées
 
-Sur l'URL publique la requête exécutées est :
+
+## 4 Vérifier l'API déployée
+
+Après avoir effectué le test de `/api/health` j'ai obtenu :
 ```
 {
-  "error": "Route not found"
+  "status": "ok",
+  "environment": "development",
+  "version": "1.0.0"
 }
 
 ```
+le statut attendu est `ok` et celui obtenu est `ok` donc c'est bon.
 
-## Statut HTTP
+Le test de `/api/curiosities` me renvoie bien le JSON attendu.
 
-Le statut HTTP est le `404 not found`
+Pour le test de `/api/curiosities?q=canal&limit=5` il me renvoie également ce qui est attendu : 
 
-## Résultat observé
+```
+{
+  "data": [
+    {
+      "slug": "passage-bleu",
+      "title": "Le passage bleu",
+      "city": "Nantes",
+      "category": "architecture",
+      "description": "Une galerie discrète au bord du canal, reconnaissable à ses carreaux bleus."
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "limit": 5,
+    "query": "canal",
+    "category": ""
+  }
+}
+```
 
-Étant donné qu'il n'y a pas de routes cette réponse et tout à fait normal. On ne voit aucun token ou secret apparaitre.
+Pour le dernier test `/api/curiosities/:slug` j'ai remplacer `:slug` par `jardin-des-brumes` et j'ai bien obtenu le résultat attendu :
 
+```
+{
+  "data": {
+    "slug": "jardin-des-brumes",
+    "title": "Le jardin des brumes",
+    "city": "Nantes",
+    "category": "nature",
+    "description": "Un jardin partagé où les aromatiques sont entretenues avant l’ouverture des bureaux."
+  }
+}
+```
+
+Toutes les méthodes HTTP on était réalisées avec `GET`.

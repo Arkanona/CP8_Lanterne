@@ -16,8 +16,15 @@ Les variables d'environnement sont des paires clé-valeur configurées en dehors
 
 ## Déploiement
 
+Pour déployer le projet on doit se rendre sur `https://vercel.com/`, crée un compte ou se connecter.
+J'ai ensuite choisi d'installer Vercel sur mon GitHub.
+Une fois cela fait j'ai selectionner mon projet et je les déployer.
+
 En essayant de déployer le projet il y'a eu un warning pour la version de Node et une erreur par rapport au build.
 J'ai mis à jour la version de Node.js qui était en `>=20` → `24.x`. 
 J'ai renommé le fichier `api` en `src`.
 Et le déploiement à pu être effectué à `11h01`.
 
+## 5 Documenter la mise à jour et le retour arrière
+
+J'ai ajouter un fichier `test.js` j'ai ensuite push le projet, une fois cela fait j'ai fait un `instant rollback` sur Vercel et je suis revenu sur la version précédente.
