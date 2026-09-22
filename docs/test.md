@@ -1,6 +1,6 @@
 ## 4 Vérifier l'API déployée
 
-Après avoir effectué le test de `http://localhost:3000/api/health` j'ai obtenu :
+Après avoir effectué le test de `/api/health` j'ai obtenu :
 ```
 {
   "status": "ok",
@@ -11,9 +11,9 @@ Après avoir effectué le test de `http://localhost:3000/api/health` j'ai obtenu
 ```
 le statut attendu est `ok` et celui obtenu est `ok` donc c'est bon.
 
-Le test de `http://localhost:3000/api/curiosities` me renvoie bien le JSON attendu.
+Le test de `/api/curiosities` me renvoie bien le JSON attendu.
 
-Pour le test de `http://localhost:3000/api/curiosities?q=canal&limit=5` il me renvoie également ce qui est attendu : 
+Pour le test de `/api/curiosities?q=canal&limit=5` il me renvoie également ce qui est attendu : 
 
 ```
 {
@@ -35,7 +35,7 @@ Pour le test de `http://localhost:3000/api/curiosities?q=canal&limit=5` il me re
 }
 ```
 
-Pour le dernier test `http://localhost:3000/api/curiosities/:slug` j'ai remplacer `:slug` par `jardin-des-brumes` et j'ai bien obtenu le résultat attendu :
+Pour le dernier test `/api/curiosities/:slug` j'ai remplacer `:slug` par `jardin-des-brumes` et j'ai bien obtenu le résultat attendu :
 
 ```
 {
